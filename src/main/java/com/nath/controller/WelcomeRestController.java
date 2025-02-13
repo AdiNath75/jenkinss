@@ -14,7 +14,7 @@ public class WelcomeRestController {
 		return "Welcome to nath";
 	}
 
-	@GetMappping("/signup")
+	@GetMapping("/signup")
 	public String signupPage(){
 		return "Signup Here...!";
 	}
